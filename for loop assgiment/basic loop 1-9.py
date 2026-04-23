@@ -279,11 +279,98 @@
 # else:
 #     print("not")
 
-n=3041
-maxi=0
-while(n>0):
-    rem=n%10
-    n=n//10
-    if(rem>maxi):
-        maxi=rem
-print(f"the largest digit in a number is:",maxi)
+# n=3041
+# maxi=0
+# while(n>0):
+#     rem=n%10
+#     n=n//10
+#     if(rem>maxi):
+#         maxi=rem
+    
+# print(f"the largest digit in a number is:",maxi)
+
+# data='smtams'
+# x=0
+# y=len(data)-1
+# a=True
+# while(x<=len(data)-1):
+#     # print(x,"==>",data[x],"-->",y,"==>",data[y])
+#     if(data[x]!=data[y]):
+#         a=False
+#         break
+#     x+=1
+#     y-=1
+# if(a==False):
+#     print("not a palindrom")
+# else:
+#     print("it is a palindrom")
+
+#---------------------------------------------------------------------------------------------------------------
+
+# a=12
+# b=8
+# i=1
+# gcd=1
+
+# while(i<=a and i<=b):
+#     if(a%i==0 and b%i==0):
+#         print(i)
+#         gcd=gcd*i
+#         a//=i
+#         b//=i
+#         i=1
+#     i+=1
+# print("gcd =",gcd)
+
+#-----------------------------------------------------------------------------------------------------------------
+
+# a=12
+# i=1
+# sum=0
+# while(i<a):
+#     if(a%i==0):
+#         sum=sum+i
+#     i+=1
+# if(a==sum):
+#     print("perfect")
+# else:
+#     print("not perfect")
+
+#--------------------------------------------------------------------------------------------------------------------
+   
+# a=145
+# sum=0
+# temp=a
+# factorial=1
+
+# while(a>0):
+#     rem=a%10
+#     a//=10
+#     while(rem>0):
+#         factorial=factorial*rem
+#         rem-=1
+#     sum=sum+factorial
+#     factorial=1
+
+# if(temp==sum):
+#     print("strong number")
+# else:
+#     print("not a strong number")
+
+#-----------------------------------------------------------------------------------------------------------------
+
+# a='HeLLo'
+# new=''
+# for i in range(len(a)):
+#     if(a[i]>='a' and a[i]<='z'):
+#         new=new+a.upper(a[i])
+#     else:
+#         new = new+a.lower(a[i])
+# print(new)
+
+
+# for i in range(5,0,-1):
+#     print("-------student",i)
+#     for j in range(5,0,-1):
+#         print("subject ",j,end=' ')
+#     print()
