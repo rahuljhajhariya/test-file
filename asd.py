@@ -1,5 +1,5 @@
-data='regex software'
-newst=''
+# data='regex software'
+# newst=''
 # for i in range(len(data)):
 #     if(data[i] not in ('a','e','i','o','u')):
 #         newst=newst+data[i]
